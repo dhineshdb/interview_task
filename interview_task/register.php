@@ -46,6 +46,7 @@ if (!validateEmail($email)) {
     die("Invalid email format");
 }
 
+// check if password is valid
 $validate_pswd = validatePassword($password);
 if($validate_pswd['valid']!=1 && $validate_pswd['valid']!=true){
     $pswd_errors = implode(' | ',$validate_pswd['errors']);
