@@ -27,6 +27,7 @@
             <input type="submit" class="btn btn-primary" value="Login">
             </div>
         </form>
+        <p>Don't have an account? <a href="index.php">Register</a></p>
     </div>
 </body>
 </html>
