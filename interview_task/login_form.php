@@ -13,18 +13,18 @@
             <div class="form-row">
                 <div class="form-group col-md-12">
                     <label for="username_or_email">Username / Email:</label>
-                    <input type="text" id="username_or_email" name="username_or_email" required><br><br>
+                    <input type="text" id="username_or_email" class="form-control" name="username_or_email" required><br><br>
                 </div>
                 <div class="form-group col-md-12">
                     <label for="password">Password:</label>
-                    <input type="password" id="password" name="password" required><br>
+                    <input type="password" id="password" class="form-control" name="password" required><br>
                 </div>
                 <?php
                     if (isset($_GET['error'])) {
                         echo '<p style="color:red;">' . htmlspecialchars($_GET['error']) . '</p>';
                     }
                 ?>
-            <input type="submit" class="btn btn-primary" value="Login">
+                <input type="submit" class="btn btn-primary" value="Login">
             </div>
         </form>
         <p>Don't have an account? <a href="index.php">Register</a></p>
