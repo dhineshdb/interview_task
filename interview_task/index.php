@@ -44,4 +44,3 @@ if (!isset($_SESSION['csrf_token'])) {
     </div>
 </body>
 </html>
-
